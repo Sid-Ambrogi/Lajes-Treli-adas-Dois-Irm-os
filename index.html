@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lajes Treliçadas DOIS Irmãos</title>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- TOPO -->
+  <header class="topo">
+    <div class="logo">
+      <h1>LAJES TRELIÇADAS</h1>
+      <span>DOIS IRMÃOS</span>
+    </div>
+
+    <nav>
+      <a href="#produtos">Produtos</a>
+      <a href="#quem-somos">Quem Somos</a>
+      <a href="#contato">Contato</a>
+      <a class="btn-whats" href="https://wa.me/5535999556035" target="_blank">
+        Pedir no WhatsApp
+      </a>
+    </nav>
+  </header>
+
+  <!-- BANNER -->
+  <section class="banner">
+    <div class="banner-texto">
+      <h2>Qualidade que sustenta sua obra</h2>
+      <p>Lajes, blocos e treliças com entrega rápida em Bandeira do Sul - MG</p>
+
+      <a href="#produtos" class="btn-principal">Ver Produtos</a>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section id="produtos" class="produtos">
+    <h2>Produtos</h2>
+
+    <div class="grid-produtos">
+
+      <div class="produto">
+        <h3>Treliça H8</h3>
+        <p>Ideal para pequenas estruturas</p>
+        <strong>R$ 11,00</strong>
+        <button onclick="adicionarCarrinho('Treliça H8', 11)">Adicionar</button>
+      </div>
+
+      <div class="produto">
+        <h3>Treliça H12</h3>
+        <p>Alta resistência estrutural</p>
+        <strong>R$ 13,00</strong>
+        <button onclick="adicionarCarrinho('Treliça H12', 13)">Adicionar</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CARRINHO -->
+  <section id="carrinho" class="carrinho">
+    <h2>Carrinho</h2>
+    <ul id="lista-carrinho"></ul>
+
+    <p>Total: R$ <span id="total">0</span></p>
+
+    <a id="finalizar" class="btn-finalizar" target="_blank">
+      Finalizar pelo WhatsApp
+    </a>
+  </section>
+
+  <!-- QUEM SOMOS -->
+  <section id="quem-somos" class="info">
+    <h2>Quem Somos</h2>
+    <p>
+      A Lajes Treliçadas DOIS Irmãos atua em Bandeira do Sul - MG fornecendo lajes,
+      blocos e treliças com qualidade e entrega rápida.
+    </p>
+  </section>
+
+  <!-- CONTATO -->
+  <footer id="contato">
+    <p>📍 Bandeira do Sul - MG</p>
+    <p>📞 (35) 99955-6035</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
